@@ -21,10 +21,10 @@ while (True):
 
     print ("\nSelect operation\n1. add\n2. subtract\n3. multiply\n4. divide")
 
-    choice = input("Enter choice (1, 2, 3, 4): ")
+    choice = input("Make a selection (1, 2, 3, 4): ")
 
-    num1 = float(input("Enter first number: "))
-    num2 = float(input("Enter second number: "))
+    num1 = float(input("Enter a number: "))
+    num2 = float(input("Enter another number: "))
 
     if choice == '1' :
         print(num1, "+", num2,"=", add(num1, num2))
@@ -37,6 +37,6 @@ while (True):
     else:
         print("Invalid operation")
 
-    continu = input("Continue? y/n: ")
+    continu = input("Continue? yes/no: ")
     if continu == "n":
         break
